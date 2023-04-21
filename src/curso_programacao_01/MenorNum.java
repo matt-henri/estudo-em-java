@@ -13,9 +13,11 @@ public class MenorNum {
 		
 		if (a < b && a < c) {
 			System.out.println("Menor = " + a);
-		} else if ( b < c) {
+		} 
+		else if ( b < c) {
 			System.out.println("Menor = " + b);
-		} else {
+		} 
+		else {
 			System.out.println("Menor = " + c);
 		}
 		
