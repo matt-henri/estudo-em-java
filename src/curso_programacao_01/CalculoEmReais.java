@@ -14,7 +14,8 @@ public class CalculoEmReais {
 		
 		double conta = 50.0;
 		if(minutos > 100) {
-			conta = conta + (minutos - 100) * 2;
+			conta += (minutos - 100) * 2;
+		  //conta = conta += (...);
 		}
 		
 		System.out.printf("Valor da conta de telefone = R$ %.2f%n", conta);
