@@ -10,7 +10,7 @@ public class SintaxeCondicionalTernaria {
 		Locale.setDefault(Locale.US);
 		double total;
 		
-		double preco = sc.nextInt();
+		double preco = sc.nextDouble();
 		double desconto = (preco < 20.0) ? preco * 0.01 : preco * 0.05;
 		total = preco - desconto;
 		
