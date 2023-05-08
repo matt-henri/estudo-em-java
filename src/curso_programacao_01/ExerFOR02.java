@@ -8,14 +8,12 @@ public class ExerFOR02 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int x = sc.nextInt();
+		int N = sc.nextInt();
 		
-		for (int i = 1; i <= x; i++) {
-			if (i % 2 != 0) {
-				System.out.println(i);
-			}
+		for (int i=1; i<=10; i++ ) {
+			int produto = i * N;
+			System.out.println(i + " x " + N + " = " + produto);
 		}
-		
 		
 		
 		sc.close();
