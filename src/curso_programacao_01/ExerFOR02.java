@@ -8,8 +8,10 @@ public class ExerFOR02 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		String nome = sc.next();
-		System.out.println("o nome digitado é: " + nome);
+		System.out.println("digite seu nome: ");
+		String nome = sc.nextLine();
+		
+		System.out.println("Seu nome é: " + nome);
 		
 		sc.close();
 	}
